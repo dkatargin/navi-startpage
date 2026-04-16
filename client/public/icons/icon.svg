@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" fill="#0A0A0A"/>
+  <rect x="4" y="4" width="120" height="120" fill="none" stroke="#00FF41" stroke-width="4"/>
+  <text x="64" y="90" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code','Consolas',monospace" font-weight="700" font-size="80" fill="#00FF41">N</text>
+</svg>

@@ -1,0 +1,64 @@
+.grid {
+  display: grid;
+  gap: 32px;
+  margin-top: 32px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.label {
+  color: var(--accent-secondary);
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.links {
+  list-style: none;
+}
+
+.linkItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 0;
+}
+
+.link {
+  color: var(--accent-color);
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.iconImg {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.iconEmoji {
+  font-size: 14px;
+  width: 16px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.more {
+  color: var(--accent-secondary);
+  font-size: 11px;
+  padding: 4px 0 0;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.more:hover {
+  opacity: 1;
+}

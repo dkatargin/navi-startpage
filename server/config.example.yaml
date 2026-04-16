@@ -1,0 +1,30 @@
+server:
+  port: 8080
+  api_secret: "change-me"  # REQUIRED: set a strong random token
+  feed_interval: 10m
+
+feed_categories:
+  - name: NEWS
+    sources:
+      - type: hn
+        max_items: 20
+      - type: rss
+        url: https://blog.golang.org/feed.atom
+
+  - name: REDDIT
+    sources:
+      - type: reddit
+        subreddit: selfhosted
+        max_items: 10
+
+  - name: BOOSTY
+    sources:
+      - type: boosty
+        creator: techauthor
+        cookie: "your-boosty-session-cookie"
+
+  - name: SPONSR
+    sources:
+      - type: sponsr
+        creator: gadgets
+        cookie: "your-sponsr-session-cookie"

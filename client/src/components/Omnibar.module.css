@@ -1,0 +1,76 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+}
+
+.input {
+  width: 100%;
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--accent-color);
+  font-family: var(--font-family);
+  font-size: 16px;
+  padding: 12px 16px;
+  outline: none;
+  text-align: center;
+}
+
+.input:focus {
+  border-color: var(--accent-color);
+}
+
+.input::placeholder {
+  color: var(--accent-color);
+  opacity: 0.4;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-top: none;
+  max-height: 400px;
+  overflow-y: auto;
+  z-index: 100;
+}
+
+.sectionLabel {
+  color: var(--accent-secondary);
+  font-size: 10px;
+  padding: 8px 16px 4px;
+  letter-spacing: 1px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.item:hover,
+.itemActive {
+  background: color-mix(in srgb, var(--accent-color) 8%, transparent);
+}
+
+.itemTitle {
+  color: var(--accent-color);
+  font-size: 13px;
+}
+
+.itemUrl {
+  color: var(--text-color);
+  opacity: 0.4;
+  font-size: 11px;
+  max-width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
