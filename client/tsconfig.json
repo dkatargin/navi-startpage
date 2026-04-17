@@ -6,15 +6,16 @@
     "jsx": "react-jsx",
     "jsxImportSource": "preact",
     "strict": true,
+    "types": ["chrome"],
+    "noUncheckedSideEffectImports": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": ["src"]
