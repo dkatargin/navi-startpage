@@ -16,6 +16,10 @@
   <img src="https://img.shields.io/badge/license-MIT-yellow" alt="MIT License" />
 </p>
 
+<p align="center">
+  <img src="docs/screenshot-1.png" width="800" alt="NAVI Startpage — Dark Theme" />
+</p>
+
 ---
 
 ## Features
@@ -27,6 +31,28 @@
 - **Self-hosted backend** — Go service with in-memory cache, Docker-ready, ~15 MB image
 - **Offline-first** — works without backend in local mode, graceful degradation on network failure
 - **Zero cloud dependencies** — all data stays on your network
+
+<details>
+<summary><strong>More screenshots</strong></summary>
+<br/>
+
+**Omnibar** — search across bookmarks, history, and web
+
+<img src="docs/screenshot-3.png" width="800" alt="Omnibar search" />
+
+**Settings — Categories**
+
+<img src="docs/screenshot-4.png" width="800" alt="Settings — Categories editor" />
+
+**Settings — Theme**
+
+<img src="docs/screenshot-5.png" width="800" alt="Settings — Theme customization" />
+
+**Light Theme**
+
+<img src="docs/screenshot-2.png" width="800" alt="NAVI Startpage — Light Theme" />
+
+</details>
 
 ## Quick Start
 
